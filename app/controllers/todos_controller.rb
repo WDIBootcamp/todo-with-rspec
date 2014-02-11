@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class TodosController < ActionController::Base
 
 	def index
@@ -10,12 +11,12 @@ class TodosController < ActionController::Base
 
 	def create
 		title_param = params[:todo].permit(:title)
+
 		@todo = Todo.create(title_param)
 		redirect todo_path
 	end
 
 	def show
 	end
-
 
 end

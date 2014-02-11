@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.0'
 gem 'rails', '4.0.2'
 
 gem 'pg'
@@ -22,4 +22,5 @@ group :development, :test do
   gem 'rb-fsevent', require: false if RUBY_PLATFORM =~ /darwin/i  
   gem 'guard-rspec' 
   gem 'guard-livereload'
+  gem 'dotenv-rails'
 end

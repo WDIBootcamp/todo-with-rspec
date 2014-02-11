@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class TodosController < ActionController::Base
 
 	def index
